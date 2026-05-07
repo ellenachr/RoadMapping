@@ -98,7 +98,7 @@ def master_tour():
         print(f"{i + 1}. {spot}")
         
     print("\n--- THE RIVER CROSSING ---")
-    print(f"⛴️  Take the boat from {sb_route[-1]} across to {nb_route[0]}")
+    print(f"🚗  Drive across the bridge from {sb_route[-1]} across to {nb_route[0]}")
 
     print("\n--- LEG 2: NORTH BANK ---")
     for i, spot in enumerate(nb_route):
